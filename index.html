@@ -18,6 +18,156 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(window).load(function () {
+        $(".loading-bar").addClass("loading-bar-animation");
+      });
+    </script>
   </head>
-  <body></body>
+  <body>
+    <section class="main-bg-container">
+      <div class="main-img-container"></div>
+      <svg viewBox="0 0 250 250" class="mylogo">
+        <rect
+          x="43"
+          y="43"
+          transform="matrix(0.70 -0.70 0.70 0.70 -51 125)"
+          class="svg-romb svg-romb-animation"
+          width="167"
+          height="167"
+        />
+        <line
+          class="svg-1st-line svg-1st-line-animation"
+          x1="75"
+          y1="175"
+          x2="175"
+          y2="75"
+        />
+        <line
+          class="svg-2nd-line svg-2nd-line-animation"
+          x1="75"
+          y1="75"
+          x2="175"
+          y2="175"
+        />
+        <text
+          transform="matrix(1 0 0 1 68 140)"
+          class="svg-a svg-a-animation st stadiu1"
+        >
+          A
+        </text>
+        <text
+          transform="matrix(1 0 0 1 150 139)"
+          class="svg-n svg-n-animation st stadiu2"
+        >
+          N
+        </text>
+        <text
+          transform="matrix(1 0 0 1 105 179)"
+          class="svg-year svg-year-animation st stadiu3"
+        >
+          1993
+        </text>
+        <text
+          transform="matrix(1 0 0 1 110 95)"
+          class="svg-web svg-web-animation st stadiu4"
+        >
+          web
+        </text>
+      </svg>
+      <div class="main-title">
+        <span class="title">ANTONIA NICOLESCU</span>
+        <br />
+        <span class="subtitle">#Web Developer</span>
+      </div>
+    </section>
+
+    <main>
+      <div class="box-container container">
+        <div class="row">
+          <div class="about-section medium-content col-lg-5 col-md-5">
+            <img
+              class="img-responsive bg-box-img"
+              src="img/about-box-bg.jpg"
+              alt="about-me"
+            />
+            <h1 class="box-text">ABOUT ME</h1>
+          </div>
+          <div class="skills-section medium-content-box col-lg-7 col-md-7">
+            <img
+              class="img-responsive bg-box-img"
+              src="img/skill-box-bg.jpg"
+              alt="skills"
+            />
+            <h1 class="box-text">SKILLS</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="services-section big-content-box col-lg-8 col-md-8">
+            <img
+              class="img-responsive bg-box-img"
+              src="img/services-box-bg.jpg"
+              alt="services"
+            />
+            <h1 class="box-text">SERVICES</h1>
+          </div>
+          <div class="contact-section small-content-box col-lg-4 col-md-4">
+            <img
+              class="img-responsive bg-box-img"
+              src="img/contact-box-bg.jpg"
+              alt="contact"
+            />
+            <h1 class="box-text">CONTACT</h1>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container container">
+        <div class="row">
+          <!-- Start Logo-Footer -->
+          <svg viewBox="0 0 155 155" class="mylogo-footer col-lg-2 col-md-2">
+            <rect
+              x="25"
+              y="25"
+              transform="matrix(0.71 -0.71 0.71 0.71 -32 78)"
+              class="st01"
+              width="105"
+              height="105"
+            />
+            <line class="st-line" x1="45" y1="110" x2="110" y2="45" />
+            <line class="st-line" x1="45" y1="45" x2="110" y2="110" />
+            <text transform="matrix(1 0 0 1 40 85)" class="all-st stadiu-1">
+              a
+            </text>
+            <text transform="matrix(1 0 0 1 95 85)" class="all-st stadiu-1">
+              n
+            </text>
+            <text transform="matrix(1 0 0 1 65 112)" class="all-st stadiu-2">
+              1993
+            </text>
+
+            <text transform="matrix(1 0 0 1 65 60)" class="all-st stadiu-3">
+              web
+            </text>
+          </svg>
+          <!-- End Logo-Footer -->
+          <div class="footer-details">
+            <span class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1"
+              >Brasov, Romania</span
+            >
+            <span class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1"
+              >Phone:+40735223787</span
+            >
+            <span class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1"
+              >antonianicolescu1993@gmail.com</span
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+  </body>
 </html>
