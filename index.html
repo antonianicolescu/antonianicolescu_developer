@@ -18,11 +18,6 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script type="text/javascript">
-      $(window).load(function () {
-        $(".loading-bar").addClass("loading-bar-animation");
-      });
-    </script>
   </head>
   <body>
     <section class="main-bg-container">
@@ -85,7 +80,7 @@
     <main>
       <div class="box-container container">
         <div class="row">
-          <div class="about-section medium-content col-lg-5 col-md-5">
+          <div class="about-section medium-content-box col-lg-5 col-md-5">
             <img
               class="img-responsive bg-box-img"
               src="img/about-box-bg.jpg"
@@ -120,6 +115,176 @@
             <h1 class="box-text">CONTACT</h1>
           </div>
         </div>
+      </div>
+
+      <div class="about-slide-container slider">
+        <div class="ab-left-container"></div>
+        <div class="ab-right-container">
+          <div class="ab-info-container">
+            <h1 class="main-heading">About me</h1>
+            <p class="about-info">
+              Hello, my name is Antonia Nicolescu and I am a web developer. The
+              areas that I have the most knowledge about are HTML5 / CSS3,
+              Javascript and ReactJS.
+            </p>
+            <p class="about-info">
+              As a person I am perseverant, flexible, open minded and always
+              eager to learn new things and tackle new challanges. I am very
+              passionate about web development, always trying to give my best.
+            </p>
+          </div>
+        </div>
+        <i class="close-button fa fa-times fa-3x"></i>
+      </div>
+
+      <div class="skills-slide-container slider">
+        <div class="sk-left-container">
+          <div class="sk-info-container slider">
+            <h1 class="main-heading sk-h1">My Skills</h1>
+            <div class="skill-wrapper slider">
+              <!-- html5 -->
+              <div class="skill-display">
+                <object
+                  type="image/svg+xml"
+                  data="img/html5.svg"
+                  class="skill-svg"
+                ></object>
+                <p class="sk-title">HTML 5</p>
+                <p class="sk-description">
+                  Advanced knowledge of HTML5 and frameworks such as Bootstrap.
+                </p>
+              </div>
+              <!-- end html5 -->
+              <!-- css3 -->
+              <div class="skill-display">
+                <object
+                  type="image/svg+xml"
+                  data="img/css3.svg"
+                  class="skill-svg"
+                ></object>
+                <p class="sk-title">CSS 3</p>
+                <p class="sk-description">
+                  Advanced knowledge of CSS3 and SCSS.
+                </p>
+              </div>
+              <!-- end css3-->
+              <!-- js-->
+              <div class="skill-display">
+                <object
+                  type="image/svg+xml"
+                  data="img/js.svg"
+                  class="skill-svg"
+                ></object>
+                <p class="sk-title">JavaScript</p>
+                <p class="sk-description">
+                  Experienced with JS and its libraries and framework, such as
+                  ReactJS.
+                </p>
+              </div>
+              <!-- end js -->
+            </div>
+          </div>
+        </div>
+        <div class="sk-right-container"></div>
+        <i class="close-button fa fa-times fa-3x" style="left: 2rem"></i>
+      </div>
+
+      <div class="services-slide-container slider">
+        <div class="services-left-container"></div>
+        <div class="services-right-container">
+          <div class="info-container slider">
+            <h1 class="main-heading">Services</h1>
+            <div class="services-wrapper slider">
+              <div class="service-display">
+                <object
+                  type="image/svg+xml"
+                  data="img/monitor.svg"
+                  class="service-svg"
+                ></object>
+                <p class="sv-title">Developing Websites</p>
+                <p class="sv-description">
+                  Giving my best in order to create fast, efficient and
+                  appealing websites.
+                </p>
+              </div>
+              <div class="service-display">
+                <object
+                  type="image/svg+xml"
+                  data="img/mobile.svg"
+                  class="service-svg"
+                ></object>
+                <p class="sv-title">Developing Responsive Websites</p>
+                <p class="sv-description">
+                  Creating websites using both approaches: Responsive Web Design
+                  and Mobile-First, depending on the project.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i class="close-button fa fa-times fa-3x"></i>
+      </div>
+
+      <div class="contact-slide-container">
+        <div class="upper-container"></div>
+        <div class="bottom-container"></div>
+        <div class="data-container">
+          <div class="heading-container">
+            <h1 class="ct-heading">Contact</h1>
+            <span class="ct-subtitle">Feel free to contact me</span>
+          </div>
+
+          <ul class="contact-wrapper">
+            <li class="details">
+              <i
+                class="fa fa-map-marker fa-3x contact-icon"
+                aria-hidden="true"
+              ></i>
+              <span class="ct-details">Brasov, Romania</span>
+            </li>
+
+            <li class="details">
+              <i
+                class="fa fa-envelope fa-3x contact-icon"
+                aria-hidden="true"
+              ></i>
+              <span class="ct-details">antonianicolescu1993@gmail.com</span>
+            </li>
+
+            <li class="details">
+              <i class="fa fa-phone fa-3x contact-icon" aria-hidden="true"></i>
+              <span class="ct-details">+40735 223 787</span>
+            </li>
+          </ul>
+
+          <div class="social-icon-container">
+            <span class="ct-subtitle">
+              If you want to collaborate, drop me a call or email or a line on
+              social media. Either way, let’s get connected!</span
+            >
+            <ul class="icon-wrapper">
+              <li>
+                <a href="https://github.com/antonianicolescu/" target="_blank"
+                  ><i
+                    class="fa fa-github fa-4x social-icon"
+                    aria-hidden="true"
+                  ></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/antonia-nicolescu-85a0681b7"
+                  target="_blank"
+                  ><i
+                    class="fa fa-linkedin-square fa-4x social-icon"
+                    aria-hidden="true"
+                  ></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <i class="close-button fa fa-times fa-3x"></i>
       </div>
     </main>
 
