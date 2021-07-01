@@ -1,0 +1,46 @@
+@media (max-width: 1024px) {
+  .main-img {
+    height: 95rem;
+  }
+  .mylogo {
+    width: 11rem;
+    height: 11rem;
+  }
+  .main-title {
+    width: auto;
+    top: 18rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+  .box-container {
+    top: 30rem;
+  }
+  .big-content-box,
+  .medium-content-box,
+  .small-content-box,
+  .contact-box {
+    display: block;
+    margin: 0 auto;
+    height: 20rem;
+  }
+  .footer-container {
+    top: 7rem;
+  }
+  .mylogo-footer {
+    width: 8rem;
+    height: 8rem;
+  }
+  .footer-details {
+    font-size: 1rem;
+  }
+  .data-container {
+    width: 85%;
+  }
+}
+
+@media (max-width: 767px) {
+}
