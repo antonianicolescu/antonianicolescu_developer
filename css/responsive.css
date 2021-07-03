@@ -43,4 +43,23 @@
 }
 
 @media (max-width: 767px) {
+  .main-bg-container,
+  .main-img-container,
+  .main-img {
+    height: 100rem;
+  }
+  .medium-content-box,
+  .big-content-box,
+  .small-content-box {
+    height: 18rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .mylogo-footer {
+    display: none;
+  }
+  .footer-content {
+    flex-direction: column;
+    line-height: 2rem;
+  }
 }
