@@ -62,4 +62,77 @@
     flex-direction: column;
     line-height: 2rem;
   }
+  .ab-left-container {
+    display: none;
+  }
+  .ab-right-container {
+    width: 100%;
+  }
+  .ab-info-container {
+    width: 80%;
+    top: 15%;
+    margin: 0 auto;
+  }
+  .main-heading {
+    font-size: 2rem;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+  }
+  .sk-right-container {
+    display: none;
+  }
+  .sk-left-container {
+    width: 100%;
+  }
+  .skill-display {
+    width: 45%;
+    height: 50%;
+    margin-bottom: 15%;
+    margin-left: 3%;
+  }
+  .services-left-container {
+    display: none;
+  }
+  .services-right-container {
+    width: 100%;
+  }
+  .info-container {
+    top: 3rem;
+    left: 0;
+    margin: 0 auto;
+  }
+  .service-display {
+    width: 40%;
+  }
+  .sv-title {
+    font-size: 0.9rem;
+    height: 3rem;
+  }
+  .data-container {
+    width: 90%;
+  }
+  .ct-heading {
+    width: 15rem;
+    font-size: 1.5rem;
+  }
+  .ct-subtitle {
+    font-size: 0.7rem;
+  }
+  ul.contact-wrapper {
+    flex-direction: column;
+    margin-top: 0.7rem;
+  }
+  .ct-details {
+    font-size: 0.8rem;
+  }
+  .contact-icon {
+    font-size: 1rem;
+  }
+  .social-icon-container {
+    height: 9rem;
+    width: 80%;
+    margin: 2rem auto 0;
+  }
 }
